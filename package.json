@@ -1,6 +1,6 @@
 {
   "name": "cypress-parallel-fast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parallelize Cypress test cases within and across spec files using a dynamic task queue — faster than file-level splitting because individual it() blocks are distributed across workers.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,8 +26,16 @@
     "speed",
     "grep"
   ],
-  "author": "",
+  "author": "camppp",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camppp/cypress-parallel-fast.git"
+  },
+  "bugs": {
+    "url": "https://github.com/camppp/cypress-parallel-fast/issues"
+  },
+  "homepage": "https://github.com/camppp/cypress-parallel-fast#readme",
   "dependencies": {
     "commander": "^11.1.0",
     "fast-glob": "^3.3.2",

@@ -3,8 +3,10 @@ cypress/
 cypress.config.ts
 tsconfig.json
 pnpm-lock.yaml
+.github/
 worker-logs/
 worker-logs2/
 test-logs/
+test-weights.json
 *.log
 .DS_Store

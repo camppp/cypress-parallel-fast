@@ -1,5 +1,9 @@
 # cypress-parallel-fast
 
+[![npm version](https://badge.fury.io/js/cypress-parallel-fast.svg)](https://www.npmjs.com/package/cypress-parallel-fast)
+[![CI](https://github.com/camppp/cypress-parallel-fast/actions/workflows/ci.yml/badge.svg)](https://github.com/camppp/cypress-parallel-fast/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Run Cypress tests in parallel across individual `it()` blocks — not just entire spec files. Built on a dynamic task queue so workers stay busy and slow tests don't hold up the whole suite.
 
 ## Why not just `cypress-parallel`?
