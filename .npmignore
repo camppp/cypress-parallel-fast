@@ -1,0 +1,10 @@
+src/
+cypress/
+cypress.config.ts
+tsconfig.json
+pnpm-lock.yaml
+worker-logs/
+worker-logs2/
+test-logs/
+*.log
+.DS_Store
