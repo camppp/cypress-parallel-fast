@@ -1,6 +1,6 @@
 {
   "name": "cypress-parallel-fast",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Parallelize Cypress test cases within and across spec files using a dynamic task queue — faster than file-level splitting because individual it() blocks are distributed across workers.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
